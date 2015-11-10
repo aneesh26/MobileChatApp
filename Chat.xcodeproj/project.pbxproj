@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C73BEF41BF033AB0034BB82 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C73BEF31BF033AB0034BB82 /* MessageView.swift */; settings = {ASSET_TAGS = (); }; };
+		9C73BEF61BF1D55B0034BB82 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C73BEF51BF1D55B0034BB82 /* Message.swift */; settings = {ASSET_TAGS = (); }; };
+		9C73BEF81BF1D8300034BB82 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C73BEF71BF1D8300034BB82 /* User.swift */; settings = {ASSET_TAGS = (); }; };
 		9CBACE6C1BEA056600E991FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBACE6B1BEA056600E991FE /* AppDelegate.swift */; };
 		9CBACE6E1BEA056600E991FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBACE6D1BEA056600E991FE /* ViewController.swift */; };
 		9CBACE711BEA056600E991FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CBACE6F1BEA056600E991FE /* Main.storyboard */; };
@@ -14,6 +17,7 @@
 		9CBACE761BEA056600E991FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CBACE741BEA056600E991FE /* LaunchScreen.storyboard */; };
 		9CBACE811BEA056700E991FE /* ChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBACE801BEA056700E991FE /* ChatTests.swift */; };
 		9CBACE8C1BEA056700E991FE /* ChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBACE8B1BEA056700E991FE /* ChatUITests.swift */; };
+		9CDE67A71BF1E78B00A9ACD1 /* ConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDE67A61BF1E78B00A9ACD1 /* ConnectionManager.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9C73BEF31BF033AB0034BB82 /* MessageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		9C73BEF51BF1D55B0034BB82 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		9C73BEF71BF1D8300034BB82 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		9CBACE681BEA056600E991FE /* Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CBACE6B1BEA056600E991FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CBACE6D1BEA056600E991FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,7 @@
 		9CBACE871BEA056700E991FE /* ChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CBACE8B1BEA056700E991FE /* ChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatUITests.swift; sourceTree = "<group>"; };
 		9CBACE8D1BEA056700E991FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CDE67A61BF1E78B00A9ACD1 /* ConnectionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +108,13 @@
 				9CBACE6B1BEA056600E991FE /* AppDelegate.swift */,
 				9CBACE6D1BEA056600E991FE /* ViewController.swift */,
 				9CBACE6F1BEA056600E991FE /* Main.storyboard */,
+				9C73BEF31BF033AB0034BB82 /* MessageView.swift */,
 				9CBACE721BEA056600E991FE /* Assets.xcassets */,
 				9CBACE741BEA056600E991FE /* LaunchScreen.storyboard */,
 				9CBACE771BEA056600E991FE /* Info.plist */,
+				9C73BEF51BF1D55B0034BB82 /* Message.swift */,
+				9C73BEF71BF1D8300034BB82 /* User.swift */,
+				9CDE67A61BF1E78B00A9ACD1 /* ConnectionManager.swift */,
 			);
 			path = Chat;
 			sourceTree = "<group>";
@@ -255,7 +267,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C73BEF41BF033AB0034BB82 /* MessageView.swift in Sources */,
+				9CDE67A71BF1E78B00A9ACD1 /* ConnectionManager.swift in Sources */,
+				9C73BEF61BF1D55B0034BB82 /* Message.swift in Sources */,
 				9CBACE6E1BEA056600E991FE /* ViewController.swift in Sources */,
+				9C73BEF81BF1D8300034BB82 /* User.swift in Sources */,
 				9CBACE6C1BEA056600E991FE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -483,6 +499,7 @@
 				9CBACE921BEA056700E991FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9CBACE931BEA056700E991FE /* Build configuration list for PBXNativeTarget "ChatTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +508,7 @@
 				9CBACE951BEA056700E991FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9CBACE961BEA056700E991FE /* Build configuration list for PBXNativeTarget "ChatUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +517,7 @@
 				9CBACE981BEA056700E991FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
