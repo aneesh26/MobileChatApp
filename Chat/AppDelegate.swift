@@ -3,7 +3,7 @@
 //  Chat
 //
 //  Created by Aneesh Shastry on 11/4/15.
-//  Copyright © 2015 Epifinder. All rights reserved.
+//  Copyright © 2015. All rights reserved.
 //
 
 import UIKit
