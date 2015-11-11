@@ -109,12 +109,12 @@
 				9CBACE6D1BEA056600E991FE /* ViewController.swift */,
 				9CBACE6F1BEA056600E991FE /* Main.storyboard */,
 				9C73BEF31BF033AB0034BB82 /* MessageView.swift */,
+				9CDE67A61BF1E78B00A9ACD1 /* ConnectionManager.swift */,
 				9CBACE721BEA056600E991FE /* Assets.xcassets */,
 				9CBACE741BEA056600E991FE /* LaunchScreen.storyboard */,
 				9CBACE771BEA056600E991FE /* Info.plist */,
 				9C73BEF51BF1D55B0034BB82 /* Message.swift */,
 				9C73BEF71BF1D8300034BB82 /* User.swift */,
-				9CDE67A61BF1E78B00A9ACD1 /* ConnectionManager.swift */,
 			);
 			path = Chat;
 			sourceTree = "<group>";

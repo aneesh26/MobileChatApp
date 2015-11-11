@@ -10,13 +10,13 @@ import Foundation
 
 class Message{
     var message: String = ""
-    var date: NSDate
+    var sentTime: String
     var fromUser : User
     var toUser : User
     
-    init(message:String,date:NSDate,fromUser:User,toUser:User){
+    init(message:String,sentTime:String,fromUser:User,toUser:User){
         self.message = message
-        self.date = date
+        self.sentTime = sentTime
         self.fromUser = fromUser
         self.toUser = toUser
     }

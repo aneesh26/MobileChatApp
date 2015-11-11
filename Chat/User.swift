@@ -8,17 +8,18 @@
 
 import Foundation
 
-class User{
+class User:NSObject{
     var name:String
     var status:String
-    var contact:Int64
+    var contact:String
     var email:String
     
-    init(name:String,status:String,contact:Int64,email:String){
+    init(name:String,status:String,contact:String,email:String){
         self.name = name
         self.status = status
         self.contact = contact
         self.email = email
     }
     
+   
 }
